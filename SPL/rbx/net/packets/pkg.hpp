@@ -92,7 +92,7 @@ namespace pkg
 		std::uintptr_t* system_address{ nullptr };
 		std::uintptr_t* raknet_guid{ nullptr };
 
-		// -> Only matters when sent to server
+		// -> Only matters when is sent by the server
 		bool plugin{ false };
 
 		std::uint8_t ordiring_channel{ 0u };
